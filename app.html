@@ -2,31 +2,36 @@
 <html lang="pt-br">
 <head>
 <meta charset="UTF-8">
-<title>CapCut Mod</title>
+<title>Download</title>
 <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<header>
-  <h1>Free Mods</h1>
-</header>
+<header>ApkBug 🚀</header>
 
 <div class="app-box">
 
   <h2>CapCut Mod APK</h2>
   <p>Versão: 17.2.0</p>
-  <p>Tamanho: 285 MB</p>
-  <p>Desenvolvedor: Bytedance</p>
+  <p>Tamanho: 285MB</p>
 
-  <a href="#" class="btn">BAIXAR APK</a>
-  <a href="https://t.me/ApkBugado" class="btn telegram">TELEGRAM</a>
+  <button class="btn" onclick="baixar()">BAIXAR APK</button>
+  <a href="https://t.me/ApkBugado" class="btn telegram">ENTRAR NO TELEGRAM</a>
 
-  <p class="desc">
-    CapCut é um editor de vídeos completo com recursos premium desbloqueados.
-  </p>
+  <p id="status"></p>
 
 </div>
+
+<script>
+function baixar() {
+  document.getElementById("status").innerHTML = "Preparando download...";
+
+  setTimeout(() => {
+    window.location.href = "SEU_LINK_AQUI";
+  }, 2000);
+}
+</script>
 
 </body>
 </html>
